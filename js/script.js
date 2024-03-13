@@ -36,7 +36,6 @@ solucao_e.innerHTML = solE;
 
 // Problemas com user input
 userInput = document.getElementById("user_input");
-userInput.value = 10;
 userInput.addEventListener("input", function(){
     // Problema f
     var solF = idade.every(element => element>=userInput.value);
